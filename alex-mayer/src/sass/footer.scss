@@ -1,0 +1,45 @@
+/* Mobile Version */
+@media (max-width: 768px) {
+  footer {
+    line-height: +1.2;
+    
+    .textBig {
+      width: 50%;
+    }
+    nav {
+      text-align: left;
+      padding-top: 15px;
+    }
+  }
+}
+
+
+footer {
+  background-color: $sky-blue;
+  color: white;
+  padding: 2em;
+  width: auto;
+
+  .textBig {
+    font-size: 13px;
+  }
+  a {
+    color: white;
+  }
+  nav {
+    text-align: right;
+    top: 0;
+  }
+  .nav-position {
+    position: relative;
+    bottom: 1em;
+  }
+  ul {
+    color: white;
+  }
+  .links {
+    list-style: square;
+    font-size: 10px;
+    margin-left: 1.7em;
+  }
+}
