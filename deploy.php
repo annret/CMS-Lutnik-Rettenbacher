@@ -25,7 +25,7 @@ set('allow_anonymous_stats', false);
 host('vm-plum.multimediatechnology.at')
 	->user('admin')
 		->port(5412)
-		->set('deploy_path', '/home/admin/alex-mayer');
+		->set('deploy_path', '/home/admin/alex');
 
 // Composer
 set('composer_action', false);
