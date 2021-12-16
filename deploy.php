@@ -7,7 +7,7 @@ require 'recipe/common.php';
 set('application', 'alex-mayer');
 
 // Project repository
-set('repository', 'https://github.com/annret/CMS-Lutnik-Rettenbacher/alex-mayer');
+set('repository', 'https://github.com/annret/CMS-Lutnik-Rettenbacher');
 
 // [Optional] Allocate tty for git clone. Default value is false.
 set('git_tty', true); 
